@@ -1,0 +1,6 @@
+stop() izlenen nesnelerin bozulmasına neden olabilir .
+
+bir AtomicBoolean kullanmak, değişkeni farklı iş parçacıklarından ayarlama ve kontrol etmede çakışmaları önler.
+
+bir iş parçacığını temiz bir şekilde kapatmak için isteğe bağlı olarak interrupt() çağrısıyla birleştirilmiş bir atomik değişkenin nasıl kullanılacağına baktık.
+ Bu, kullanımdan kaldırılan stop() yöntemini çağırmak ve sonsuza kadar kilitleme ve bellek bozulması riskine girmek için kesinlikle tercih edilir.

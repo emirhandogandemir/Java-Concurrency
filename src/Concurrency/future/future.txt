@@ -1,0 +1,10 @@
+Basit ifadeyle future classı asenkron bir hesaplamanın gelecekteki sonucunu temsil eder.
+Bu sonuç , gelecekte işleme tamamlandıktan sonra görünecektir .
+
+Future in zaman bağımsız yapısından yararlanan bazı örnekler :
+- yoğun hesaplamalı süreçler
+- Büyük veri yapılarını manipüle etme
+- remote method calls
+
+isDone executorun görev işlemeyi bitirip bitirmediğini bize bildirir.
+get() methodu görev tamamlanana kadar yürütmeyi engeller.get() yalnızca görevin tamamlandığından emin olduktan sonra çağrılır.

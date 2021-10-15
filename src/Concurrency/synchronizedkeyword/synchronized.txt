@@ -1,0 +1,8 @@
+
+synchronized keywordu metodun başına geldiğinde Metoda ulaşmak isteyen Threadler metoda sıra ile girerler ,
+ve bir thread metodu bitirmeden diğer thread giremez .
+
+Biz synchronized keywordunu projemizin farklı levellerinde kullanabliriz
+- instance methods
+- Static methods
+- Code blocks

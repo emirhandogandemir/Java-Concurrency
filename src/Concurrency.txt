@@ -1,0 +1,8 @@
+Basitçe Söylemek gerekirse çok parçacıklı bir ortamda iki veya daha fazla iş parçacığı
+aynı anda değiştirilebilen paylaşılan verileri günellemeye çalıştığında bir yarış durumu oluşur
+
+Eşzamanlı bir çözümde, tek bir işlem ünitesinde birden çok işlemi yapmaya yöneliriz. Burada genel ilke taleplerin işlem ünitesinde uygun sıra ile çalıştırılması olur ve bir ağ üzerinde dağıtık olarak duran işlemci üniteleri ile bu tasarım genişletilebilir.
+
+
+
+DEADLOCK  ya da kilitlenme = iki ya da daha fazla eylemin devam etmek için birbirlerinin bitmesini beklemesi ve sonuçta ikisinin de devam edememesi durumu.

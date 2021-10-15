@@ -1,0 +1,33 @@
+
+    Thread sınıfı  , kanalları yönetmek için çeşitli metotlat tanımlar .
+    start()
+    run()
+    isAlive()
+    join()
+    getPriority()
+    sleep()
+
+
+
+        Lıfe Cycle of a thread in java
+NEW = henüz yürütmeye başlamamış yeni oluşturulmuş bir iş parçacığı
+RUNNABLE =çalışıyor veya yürütmeye hazır, ancak kaynak tahsisini bekliyor
+BLOCKED =senkronize bir bloğa/yönteme girmek veya yeniden girmek için bir monitör kilidi almayı beklemek
+WAITING =başka bir iş parçacığının herhangi bir zaman sınırı olmaksızın belirli bir eylemi gerçekleştirmesini beklemek
+TIMED_WAITING = belirli bir süre için başka bir iş parçacığının belirli bir eylemi gerçekleştirmesini beklemek
+TERMINATED = yürütmesini tamamladı
+
+Çok iş parçacıklı bir ortamda, (JVM'nin bir parçası olan) Thread-Scheduler, her bir iş parçacığına sabit bir süre tahsis eder.
+ Böylece belirli bir süre boyunca çalışır, ardından kontrolü diğer RUNNABLE iş parçacıklarına bırakır.
+
+
+ wait() ancak yalnıza senkronize bir bloktan çağrılabilir .Nesne üzerindeki kilidi serbest bırakır.
+
+ sleep() geçerli iş parçacığını duraklatır ve herhangi bir kilidi serbest bırakmaz.
+ sleep() de belli bir süre geçtikten sonra iş parçacığı uyanmasına rağmen
+ wait() de notify() ya da notifyall() methodlarını kullanarak iş parçacığını uyandırabiliriz
+
+Runnable multi thread taskleri temsil etmek için sağlanan bir arabirimdir .
+ Callable Runnableın geliştirilmiş bir sürümüdür .
+
+ Runnable işlevsel bir arabirimdir tek bir run() methoduna sahiptir .
